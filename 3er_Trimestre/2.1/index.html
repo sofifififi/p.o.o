@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VideoLab</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="top">
+        <div class="nav-container">
+            <h1>Dojonary</h1>
+            <input type="text" placeholder="Search" name="query" class="search">
+            <button class="btn" onclick="login(this)">Login</button>
+        </div>
+    </div>
+
+
+    <div class="flex-container">
+
+
+        <div class="col-1">
+
+            <div class="container">
+                <div class="sub-container-1">
+                    <h1>ninja</h1>
+                    <h2><i>noun</i> <br> Plural: ninjas</h2>
+                    <button class="btn" onclick="contadorLike(this)" like-contador="13">13 Likes</button>
+                </div>
+                <div class="sub-container-2">
+                    <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a>.</p>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="sub-container-1">
+                    <h1>ninja</h1>
+                    <h2><i>noun</i> <br> Plural: ninjas</h2>
+                    <button class="btn" onclick="contadorLike(this)" like-contador="37">37 Likes</button>
+                </div>
+                <div class="sub-container-2">
+                    <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-2">
+
+            <div class="container-extra">
+                <h1>Dojonary is defined by YOU</h1>
+                <button class="btn" onclick="borrarAdd(this)">Add definition</button>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
